@@ -1,22 +1,19 @@
 <script>
 import AppTitle from './components/AppTitle.vue';
+import AppHeroBonus from './components/AppHeroBonus.vue';
 
 export default {
   components: {
-    AppTitle
+    AppTitle,
+    AppHeroBonus
   }
 }
 </script>
 
 <template>
   <AppTitle />
+
+  <AppHeroBonus />
 </template>
 
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-</style>
+<style scoped></style>
