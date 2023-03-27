@@ -1,5 +1,7 @@
 <script>
-
+export default {
+    name: "AppHeroBonus"
+}
 </script>
 
 <template>
@@ -8,7 +10,7 @@
         <div class="hero-container">
 
             <video autoplay loop id="myVideo">
-                <source src="../../public/jumbovideo.mp4" type="video/mp4">
+                <source src="/jumbovideo.mp4" type="video/mp4">
             </video>
             <h2 id="secondary-claim">Vieni a scoprire anche tu le bellezze di Vite!</h2>
             <h1 id="main-claim">Parti subito!</h1>
